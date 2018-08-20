@@ -1,16 +1,3 @@
 compile
-~compile
 package
-~compile
 exit
-~compile
-package
-:q
-quit()
-exit
-compile
-evicted
-exit
-compile
-package
-~compile
