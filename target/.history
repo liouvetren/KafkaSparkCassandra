@@ -28,3 +28,9 @@ compile
 run
 exit
 ~package
+run
+exit
+one-jar
+exit
+assembly
+exit
