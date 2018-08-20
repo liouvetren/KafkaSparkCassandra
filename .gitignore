@@ -1,4 +1,4 @@
 # .gitignore
 project/
 target/
-!target/**/kafka-spark-cassandra-wordcount_2.11-1.0.jar
+!target/scala-2.11/kafka-spark-cassandra-wordcount_2.11-1.0.jar
