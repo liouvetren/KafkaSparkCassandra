@@ -1,7 +1,25 @@
 [0m[[0m[0minfo[0m] [0m[0mPackaging /Users/shengs/Desktop/insight/project/deploy/stream/KafkaSparkCassandra/target/scala-2.11/kafka-spark-cassandra-wordcount_2.11-1.0.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	KafkaSparkCassandra.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/shengs/Desktop/insight/project/deploy/stream/KafkaSparkCassandra/target/scala-2.11/classes/KafkaSparkCassandra.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	KafkaSparkCassandra$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/shengs/Desktop/insight/project/deploy/stream/KafkaSparkCassandra/target/scala-2.11/classes/KafkaSparkCassandra$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaSparkCassandra$$anonfun$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/shengs/Desktop/insight/project/deploy/stream/KafkaSparkCassandra/target/scala-2.11/classes/KafkaSparkCassandra$$anonfun$6.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaSparkCassandra$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/shengs/Desktop/insight/project/deploy/stream/KafkaSparkCassandra/target/scala-2.11/classes/KafkaSparkCassandra$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaSparkCassandra$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/shengs/Desktop/insight/project/deploy/stream/KafkaSparkCassandra/target/scala-2.11/classes/KafkaSparkCassandra$$anonfun$main$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaSparkCassandra$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/shengs/Desktop/insight/project/deploy/stream/KafkaSparkCassandra/target/scala-2.11/classes/KafkaSparkCassandra$$anonfun$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaSparkCassandra.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/shengs/Desktop/insight/project/deploy/stream/KafkaSparkCassandra/target/scala-2.11/classes/KafkaSparkCassandra.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaSparkCassandra$$anonfun$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/shengs/Desktop/insight/project/deploy/stream/KafkaSparkCassandra/target/scala-2.11/classes/KafkaSparkCassandra$$anonfun$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaSparkCassandra$$anonfun$main$1$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/shengs/Desktop/insight/project/deploy/stream/KafkaSparkCassandra/target/scala-2.11/classes/KafkaSparkCassandra$$anonfun$main$1$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaSparkCassandra$$anonfun$main$1$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/shengs/Desktop/insight/project/deploy/stream/KafkaSparkCassandra/target/scala-2.11/classes/KafkaSparkCassandra$$anonfun$main$1$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaSparkCassandra$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/shengs/Desktop/insight/project/deploy/stream/KafkaSparkCassandra/target/scala-2.11/classes/KafkaSparkCassandra$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	KafkaSparkCassandra$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/shengs/Desktop/insight/project/deploy/stream/KafkaSparkCassandra/target/scala-2.11/classes/KafkaSparkCassandra$$anonfun$1.class[0m
 [0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
