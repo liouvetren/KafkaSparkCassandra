@@ -24,3 +24,6 @@ exit
 compile
 package
 exit
+compile 
+run
+exit

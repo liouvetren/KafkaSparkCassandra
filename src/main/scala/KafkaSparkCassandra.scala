@@ -35,8 +35,8 @@ object KafkaSparkCassandra {
     val topicSet = Array("twitterdata")
     val kafkaParams = Map[String, Object](
         "bootstrap.servers"  -> kafkaBroker,
-        // "key.deserializer"   -> classOf[StringDeserializer],
-        // "value.deserializer" -> classOf[StringDeserializer],
+        "key.deserializer"   -> classOf[StringDeserializer],
+        "value.deserializer" -> classOf[StringDeserializer],
         "group.id"           -> "wordcount",
         "auto.offset.reset"  -> "latest",
         "enable.auto.commit" -> (false: java.lang.Boolean)
