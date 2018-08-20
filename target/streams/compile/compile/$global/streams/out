@@ -1,0 +1,10 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/shengs/Desktop/insight/project/deploy/stream/KafkaSparkCassandra/src/main/scala/KafkaSparkCassandra.scala:51:53: not found: value cassandra_host[0m
+[0m[[0m[31merror[0m] [0m[0m    val db_sess = Cluster.builder().addContactPoint(cassandra_host).build().connect()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/shengs/Desktop/insight/project/deploy/stream/KafkaSparkCassandra/src/main/scala/KafkaSparkCassandra.scala:68:34: not found: type Date[0m
+[0m[[0m[31merror[0m] [0m[0m      .map({case (w,c) => (w,new Date().getTime,c)}) // add the current time to the tuple for saving[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/shengs/Desktop/insight/project/deploy/stream/KafkaSparkCassandra/src/main/scala/KafkaSparkCassandra.scala:73:11: value saveToCassandra is not a member of org.apache.spark.rdd.RDD[Nothing][0m
+[0m[[0m[31merror[0m] [0m[0m      rdd.saveToCassandra("twitterdata","word_count")[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
