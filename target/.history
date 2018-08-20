@@ -10,3 +10,17 @@ run
 compile
 run
 exit
+run
+package
+run
+compile
+run
+package
+run
+exit
+compile
+package
+exit
+compile
+package
+exit
