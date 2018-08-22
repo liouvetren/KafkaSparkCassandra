@@ -34,3 +34,9 @@ one-jar
 exit
 assembly
 exit
+assembly
+compile
+evicted
+clean
+compile
+assembly

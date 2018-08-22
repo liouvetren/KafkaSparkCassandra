@@ -53,7 +53,7 @@ object KafkaSparkCassandra {
 
     db_sess.execute("CREATE KEYSPACE IF NOT EXISTS twitterdata WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 }")
     db_sess.execute("CREATE TABLE IF NOT EXISTS twitterdata.word_count (word text, ts timestamp, count int, PRIMARY KEY(word, ts)) ")
-    db_sess.execute("TRUNCATE twitterdata.word_count") // purge data at the start
+    //db_sess.execute("TRUNCATE twitterdata.word_count") // purge data at the start
     db_sess.close()
 
 
@@ -71,7 +71,7 @@ object KafkaSparkCassandra {
 
     // Save each RDD to the ic_example.word_count table in Cassandra
     wordCounts.foreachRDD(rdd => {
-      rdd.saveToCassandra("twitterdata","word_count")
+      rdd.saveToCassandra("twitterdata","word_count",SomeColumns("word", "timestamp", "count"))
     })
 
     // Now we have set up the processing logic it's time to do some processing
