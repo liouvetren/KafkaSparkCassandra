@@ -34,12 +34,13 @@ object KafkaSparkCassandra {
     val kafkaBroker = "kafka.kafka:9092"
     val topicSet = Array("twitterdata")
     val kafkaParams = Map[String, Object](
-        "bootstrap.servers"  -> kafkaBroker,
-        "key.deserializer"   -> classOf[StringDeserializer],
-        "value.deserializer" -> classOf[StringDeserializer],
-        "group.id"           -> "wordcount",
-        "auto.offset.reset"  -> "latest",
-        "enable.auto.commit" -> (false: java.lang.Boolean)
+        "bootstrap.servers"       -> kafkaBroker,
+        "key.deserializer"        -> classOf[StringDeserializer],
+        "value.deserializer"      -> classOf[StringDeserializer],
+        "group.id"                -> "wordcount",
+        "auto.offset.reset"       -> "latest",
+        "enable.auto.commit"      -> "true",
+        "auto.commit.interval.ms" -> "1000"
     )
     val dstream = KafkaUtils.createDirectStream[String,String](
         ssc,
