@@ -43,3 +43,6 @@ assembly
 clean
 compile
 assembly
+clean
+compile
+assembly

@@ -22,7 +22,7 @@ object KafkaSparkCassandra {
     // val cassandra_host = args(3)
 
     // spark streaming context with cassandra storage
-    val batch_interval = 1000 // millisecond
+    val batch_interval = 100 // millisecond
     val cassandraHost = "cassandra.database"
     val sparkConf = new SparkConf()
                     .setAppName("WordCount")
