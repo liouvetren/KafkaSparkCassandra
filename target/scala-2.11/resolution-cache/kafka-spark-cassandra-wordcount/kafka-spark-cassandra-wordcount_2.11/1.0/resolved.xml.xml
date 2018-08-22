@@ -4,7 +4,7 @@
 		module="kafka-spark-cassandra-wordcount_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20180822013027"
+		publication="20180822021426"
 	>
 		<description>
 		kafka-spark-cassandra-wordcount

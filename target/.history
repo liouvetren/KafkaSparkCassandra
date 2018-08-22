@@ -40,3 +40,6 @@ evicted
 clean
 compile
 assembly
+clean
+compile
+assembly

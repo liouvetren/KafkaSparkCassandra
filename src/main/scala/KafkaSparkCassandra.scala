@@ -71,7 +71,7 @@ object KafkaSparkCassandra {
 
     // Save each RDD to the ic_example.word_count table in Cassandra
     wordCounts.foreachRDD(rdd => {
-      rdd.saveToCassandra("twitterdata","word_count",SomeColumns("word", "timestamp", "count"))
+      rdd.saveToCassandra("twitterdata","word_count",SomeColumns("word", "ts", "count"))
     })
 
     // Now we have set up the processing logic it's time to do some processing
